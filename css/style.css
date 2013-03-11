@@ -275,7 +275,7 @@ header {
 	header hgroup {
 		position: absolute;
 		top: 656px;
-		left: 0;
+		left: -42px;
 		width: 384px;
 		text-align: right;
 		font-family: 'AeroportalRegular';
