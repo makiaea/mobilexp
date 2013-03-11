@@ -175,16 +175,16 @@ body {
 }
 a, a:visited {
 	text-decoration: none;
-	color: #FF9000;
+	color: #d92727;
 }
  a:hover {
 	text-decoration: underline;
-	color: #FF9000;
+	color: #d92727;
 }
 /* Typography */
 h2 {
 	font-weight: normal;
-	color: #FF9000;
+	color: #d92727;
 	font-size: 1.7em;
 	line-height: 1.2em;
 	}
@@ -209,7 +209,7 @@ h3 {
 	font-weight: normal;
 	font-size: 1.5em;
 	line-height: 1em;
-	color: #FF9000;
+	color: #d92727;
 	margin: 0 0 0.5em 0;
 }
 h4 {
@@ -227,6 +227,9 @@ h4 {
 	margin: 0 auto;
 	position: relative;
 	z-index: 1;
+}
+.container img {
+  margin-top: 60px;
 }
 /* Header */
 header {
@@ -324,7 +327,7 @@ header {
 		}
 		.tagline > strong {
 			display: block;
-			padding-left: 0.5em;
+			padding-left: 95px;
 			font-size: 1.5em;
 			line-height: 1em;
 			font-weight: bold;
@@ -333,7 +336,7 @@ header {
 	#mind {
 		position: absolute;
 		top: 430px;
-		left: 60px;
+		left: 0;
 		width: 360px;
 		list-style-type: none;
 		margin: 0;
@@ -469,7 +472,7 @@ article {
 	}
 	.intro-link,
 	.intro-link:visited {
-		background: #FF9000;
+		background: #d92727;
 		padding: 0.25em 0.5em;
 		color: white;
 		-webkit-border-radius: 6px;
@@ -720,7 +723,7 @@ aside {
    clear: both;
    height: 50px;
 }
-footer { background: #FF9000; }
+footer { background: #d92727; }
 footer a,
 footer a:visited,
 footer { font-family: 'RobotoCondensed', Arial, sans-serif; color:#fff; font-size:18px; padding: 10px 0; text-shadow: 1px 2px 1px #C46E00; }
